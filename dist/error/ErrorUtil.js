@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.getErrorMessage = exports.gotRateLimited = exports.inAirPlaneMode = void 0;
 function inAirPlaneMode(error) {
     return error.code === 'ECONNABORTED';
 }

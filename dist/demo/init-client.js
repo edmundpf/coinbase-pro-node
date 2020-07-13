@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.initClient = void 0;
 const __1 = require("..");
 require('dotenv').config();
 function initClient() {

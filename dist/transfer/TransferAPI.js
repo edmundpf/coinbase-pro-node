@@ -9,6 +9,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
     });
 };
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.TransferAPI = void 0;
 class TransferAPI {
     constructor(apiClient) {
         this.apiClient = apiClient;
@@ -16,9 +17,11 @@ class TransferAPI {
     getTransfers(transferType, profileId, pagination) {
         return __awaiter(this, void 0, void 0, function* () {
             const resource = TransferAPI.URL.TRANSFERS;
-            const response = yield this.apiClient.get(resource, {
-                params: Object.assign(Object.assign({}, pagination), { profile_id: profileId ? profileId : null, type: transferType }),
-            });
+            const params = Object.assign(Object.assign({}, pagination), { type: transferType });
+            if (profileId) {
+                params.profile_id = profileId;
+            }
+            const response = yield this.apiClient.get(resource, { params });
             return {
                 data: response.data,
                 pagination: {

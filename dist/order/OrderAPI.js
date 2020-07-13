@@ -9,6 +9,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
     });
 };
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.OrderAPI = exports.OrderStatus = exports.SelfTradePrevention = exports.CancelOrderPeriod = exports.TimeInForce = exports.OrderType = void 0;
 var OrderType;
 (function (OrderType) {
     OrderType["LIMIT"] = "limit";

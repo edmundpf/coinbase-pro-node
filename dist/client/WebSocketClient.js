@@ -12,6 +12,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.WebSocketClient = exports.WebSocketEvent = exports.WebSocketResponseType = exports.WebSocketRequestType = exports.WebSocketChannelName = void 0;
 const events_1 = require("events");
 const reconnecting_websocket_1 = __importDefault(require("reconnecting-websocket"));
 const ws_1 = __importDefault(require("ws"));

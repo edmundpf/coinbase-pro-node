@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.OrderSide = exports.MAXIMUM_PAGINATION_LIMIT = void 0;
 exports.MAXIMUM_PAGINATION_LIMIT = 100;
 var OrderSide;
 (function (OrderSide) {

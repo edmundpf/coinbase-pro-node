@@ -9,6 +9,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
     });
 };
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.ProductAPI = exports.ProductEvent = exports.OrderBookLevel = exports.CandleGranularity = void 0;
 const CandleBucketUtil_1 = require("./CandleBucketUtil");
 var CandleGranularity;
 (function (CandleGranularity) {

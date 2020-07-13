@@ -1,18 +1,25 @@
 "use strict";
-function __export(m) {
-    for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
-}
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    Object.defineProperty(o, k2, { enumerable: true, get: function() { return m[k]; } });
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __exportStar = (this && this.__exportStar) || function(m, exports) {
+    for (var p in m) if (p !== "default" && !exports.hasOwnProperty(p)) __createBinding(exports, m, p);
+};
 Object.defineProperty(exports, "__esModule", { value: true });
-__export(require("./account"));
-__export(require("./client"));
-__export(require("./CoinbasePro"));
-__export(require("./currency"));
-__export(require("./fee"));
-__export(require("./fill"));
-__export(require("./order"));
-__export(require("./payload"));
-__export(require("./product"));
-__export(require("./profile"));
-__export(require("./time"));
-__export(require("./user"));
+__exportStar(require("./account"), exports);
+__exportStar(require("./client"), exports);
+__exportStar(require("./CoinbasePro"), exports);
+__exportStar(require("./currency"), exports);
+__exportStar(require("./fee"), exports);
+__exportStar(require("./fill"), exports);
+__exportStar(require("./order"), exports);
+__exportStar(require("./payload"), exports);
+__exportStar(require("./product"), exports);
+__exportStar(require("./profile"), exports);
+__exportStar(require("./time"), exports);
+__exportStar(require("./user"), exports);
 //# sourceMappingURL=index.js.map

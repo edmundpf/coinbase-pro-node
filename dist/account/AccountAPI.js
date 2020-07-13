@@ -9,6 +9,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
     });
 };
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.AccountAPI = exports.AccountType = void 0;
 var AccountType;
 (function (AccountType) {
     AccountType["FIAT"] = "fiat";

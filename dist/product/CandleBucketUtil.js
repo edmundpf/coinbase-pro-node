@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.CandleBucketUtil = void 0;
 const MAXIMUM_HISTORIC_DATA_POINTS = 300;
 class CandleBucketUtil {
     static getMinPrice(candles, property = 'close') {

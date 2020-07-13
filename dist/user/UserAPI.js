@@ -9,6 +9,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
     });
 };
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.UserAPI = void 0;
 class UserAPI {
     constructor(apiClient) {
         this.apiClient = apiClient;

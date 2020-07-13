@@ -9,6 +9,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
     });
 };
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.CoinbasePro = void 0;
 const RESTClient_1 = require("./client/RESTClient");
 const WebSocketClient_1 = require("./client/WebSocketClient");
 const TimeAPI_1 = require("./time/TimeAPI");
