@@ -13,6 +13,7 @@
     "project": "./tsconfig.json",
     "sourceType": "module"
   },
+  "ignorePatterns": ["dist/*"],
   "plugins": ["@typescript-eslint", "typescript-sort-keys", "prettier"],
   "rules": {
     "@typescript-eslint/array-type": "error",
